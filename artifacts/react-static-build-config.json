@@ -1,0 +1,148 @@
+{
+  "entry": "/Users/administrator/Development/evular.lt-test/src/index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "siteRoot": "",
+  "paths": {
+    "ROOT": "/Users/administrator/Development/evular.lt-test",
+    "LOCAL_NODE_MODULES": "/Users/administrator/Development/evular.lt-test/node_modules/react-static/node_modules",
+    "SRC": "/Users/administrator/Development/evular.lt-test/src",
+    "PAGES": "/Users/administrator/Development/evular.lt-test/src/pages",
+    "DIST": "/Users/administrator/Development/evular.lt-test/dist",
+    "ASSETS": "/Users/administrator/Development/evular.lt-test/dist",
+    "PLUGINS": "/Users/administrator/Development/evular.lt-test/plugins",
+    "TEMP": "/Users/administrator/Development/evular.lt-test/tmp",
+    "BUILD_ARTIFACTS": "/Users/administrator/Development/evular.lt-test/artifacts",
+    "PUBLIC": "/Users/administrator/Development/evular.lt-test/public",
+    "NODE_MODULES": "/Users/administrator/Development/evular.lt-test/node_modules",
+    "EXCLUDE_MODULES": "/Users/administrator/Development/evular.lt-test/node_modules",
+    "PACKAGE": "/Users/administrator/Development/evular.lt-test/package.json",
+    "HTML_TEMPLATE": "/Users/administrator/Development/evular.lt-test/dist/index.html",
+    "STATIC_DATA": "/Users/administrator/Development/evular.lt-test/dist/staticData"
+  },
+  "plugins": [
+    {
+      "location": "/Users/administrator/Development/evular.lt-test",
+      "options": {},
+      "hooks": {}
+    }
+  ],
+  "babelExcludes": [],
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "routes": [
+    {
+      "path": "404",
+      "component": "src/pages/404.jsx",
+      "isPage": true,
+      "originalPath": "404",
+      "hasGetProps": false,
+      "fromConfig": true,
+      "template": "../src/pages/404.jsx"
+    },
+    {
+      "path": "Blog",
+      "component": "src/pages/Blog.jsx",
+      "isPage": true,
+      "originalPath": "Blog",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/Blog.jsx"
+    },
+    {
+      "path": "Home",
+      "component": "src/pages/Home.jsx",
+      "isPage": true,
+      "originalPath": "Home",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/Home.jsx"
+    },
+    {
+      "path": "Post",
+      "component": "src/pages/Post.jsx",
+      "isPage": true,
+      "originalPath": "Post",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/Post.jsx"
+    },
+    {
+      "path": "Success",
+      "component": "src/pages/Success.jsx",
+      "isPage": true,
+      "originalPath": "Success",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/Success.jsx"
+    },
+    {
+      "path": "/",
+      "component": "src/pages/Home.jsx",
+      "originalPath": "/",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/Home.jsx"
+    },
+    {
+      "path": "blogas",
+      "component": "src/pages/Blog.jsx",
+      "originalPath": "blogas",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/Blog.jsx"
+    },
+    {
+      "path": "blogas/wordpress-50-ko-galima-tiktis-i-naujausios-wordpress-versijos",
+      "component": "src/pages/Post.jsx",
+      "originalPath": "wordpress-50-ko-galima-tiktis-i-naujausios-wordpress-versijos",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/Post.jsx"
+    },
+    {
+      "path": "blogas/2019-m-web-krimo-tendencijos-naujos-paradigmos-metas",
+      "component": "src/pages/Post.jsx",
+      "originalPath": "2019-m-web-krimo-tendencijos-naujos-paradigmos-metas",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/Post.jsx"
+    },
+    {
+      "path": "blogas/naujo-verslo-pavadinimas-patarimai",
+      "component": "src/pages/Post.jsx",
+      "originalPath": "naujo-verslo-pavadinimas-patarimai",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/Post.jsx"
+    },
+    {
+      "path": "success",
+      "component": "src/pages/Success.jsx",
+      "originalPath": "success",
+      "hasGetProps": false,
+      "fromConfig": true,
+      "template": "../src/pages/Success.jsx"
+    }
+  ],
+  "templates": [
+    "../src/pages/404.jsx",
+    "../src/pages/Blog.jsx",
+    "../src/pages/Home.jsx",
+    "../src/pages/Post.jsx",
+    "../src/pages/Success.jsx"
+  ]
+}
